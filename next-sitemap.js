@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://surmonte.nocumple.cl',
+  siteUrl: 'https://drcheck.cl',
   generateRobotsTxt: true,
 }

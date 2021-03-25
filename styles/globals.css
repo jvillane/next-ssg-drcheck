@@ -1,16 +1,29 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root {
+  --color-primary: #12205f;
+  --color-primary-900: #12205f;
+  --color-primary-800: #1e3075;
+  --color-primary-700: #263a81;
+  --color-primary-600: #2f438d;
+  --color-primary-500: #354b96;
+  --color-primary-400: #5364a4;
+  --color-primary-300: #717fb3;
+  --color-primary-200: #98a3c9;
+  --color-primary-100: #c1c7df;
+  --color-primary-50: #e6e9f2;
+  
+  --color-secondary: #fe6601;
+  --color-secondary-900: #fe6601;
+  --color-secondary-800: #fe8700;
+  --color-secondary-700: #ff9900;
+  --color-secondary-600: #ffac00;
+  --color-secondary-500: #ffba00;
+  --color-secondary-400: #ffc420;
+  --color-secondary-300: #ffcf4a;
+  --color-secondary-200: #ffdc7f;
+  --color-secondary-100: #ffeab1;
+  --color-secondary-50: #fff7e0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
