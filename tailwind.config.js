@@ -58,7 +58,12 @@ module.exports = {
       blue: colors.blue,
       pink: colors.pink,
     },
-    extend: {},
+    extend: {
+      colors: {
+        teal: colors.teal,
+        cyan: colors.cyan,
+      }
+    },
   },
   variants: {
     extend: {
@@ -67,5 +72,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }

@@ -15,7 +15,7 @@ export default function Hero() {
                   className="bg-clip-text text-transparent bg-secondary block">de manos de un experto</span>
               </h1>
               <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Nos avalan más de 20 años de experiencia en control de calidad habitacional.
+                Somos parte de Constructora EGT SPA y nos avalan <b>más de 20 años de experiencia</b> en control de calidad habitacional.
               </p>
             </div>
           </div>
