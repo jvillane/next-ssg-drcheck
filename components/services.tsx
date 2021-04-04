@@ -26,17 +26,20 @@ export default function Services() {
             <div className="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
               <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div className="px-6 pt-8 pb-2 bg-white sm:p-10 sm:pb-2">
-                  <div>
+                  {/*<div>
                     <h3
                       className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600"
                       id="tier-standard">
                       ESTÁNDAR
                     </h3>
-                  </div>
+                  </div>*/}
                   <div className="mt-4 flex items-baseline text-6xl font-extrabold">
+                    ESTÁNDAR
+                  </div>
+                  {/*<div className="mt-4 flex items-baseline text-6xl font-extrabold">
                     UF 8
                     <span className="ml-1 text-2xl font-medium text-gray-500">&nbsp;&nbsp;IVA incluido</span>
-                  </div>
+                  </div>*/}
                   <p className="mt-5 text-lg text-gray-500">
                     Visita inicial de acompañamiento en la recepción, donde se revisarán los siguientes items:
                   </p>
@@ -68,16 +71,19 @@ export default function Services() {
               
               <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
                 <div className="px-6 pt-8 pb-2 bg-white sm:p-10 sm:pb-2">
-                  <div>
+                  {/*<div>
                     <h3
                       className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-indigo-100 text-indigo-600"
                       id="tier-standard">
                       Premium
                     </h3>
-                  </div>
-                  <div className="mt-4 flex items-baseline text-6xl font-extrabold">
+                  </div>*/}
+                  {/*<div className="mt-4 flex items-baseline text-6xl font-extrabold">
                     UF 12
                     <span className="ml-1 text-2xl font-medium text-gray-500">&nbsp;&nbsp;IVA incluido</span>
+                  </div>*/}
+                  <div className="mt-4 flex items-baseline text-6xl font-extrabold">
+                    PREMIUM
                   </div>
                   <p className="mt-5 text-lg text-gray-500">
                     Visita inicial de acompañamiento en la recepción, donde se revisarán los siguientes items:
