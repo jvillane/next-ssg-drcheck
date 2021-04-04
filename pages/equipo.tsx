@@ -1,9 +1,7 @@
 import React from 'react';
 import Navbar from "../components/navbar";
-import Hero from "../components/hero";
-import Testimony from "../components/testimony";
 import Footer from "../components/footer";
-import Revision from "../components/revision";
+import Team from "../components/team";
 
 export default function Home() {
   return (
@@ -12,9 +10,7 @@ export default function Home() {
         <div className="relative overflow-hidden">
           <Navbar/>
           <main>
-            <Hero/>
-            <Revision/>
-            <Testimony/>
+            <Team/>
           </main>
           <Footer/>
         </div>

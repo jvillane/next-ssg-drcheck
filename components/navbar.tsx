@@ -15,12 +15,12 @@ export default function Navbar() {
   
   return (
     <header className="relative">
-      <div className="bg-primary pt-6">
+      <div className="bg-primary pt-6 pb-4">
         <nav className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
              aria-label="Global">
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#">
+              <a href="/">
                 <span className="sr-only">DrCheck</span>
                 <div className="text-white">
                   <CheckCircleOutline/>
@@ -40,9 +40,9 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden space-x-8 md:flex md:ml-10">
-              <a href="#" className="text-base font-medium text-white hover:text-gray-300">Inicio</a>
-              <a href="#" className="text-base font-medium text-white hover:text-gray-300">Servicios</a>
-              <a href="#" className="text-base font-medium text-white hover:text-gray-300">Equipo</a>
+              <a href="/" className="text-base font-medium text-white hover:text-gray-300">Inicio</a>
+              <a href="/servicios" className="text-base font-medium text-white hover:text-gray-300">Servicios</a>
+              <a href="/equipo" className="text-base font-medium text-white hover:text-gray-300">Equipo</a>
             </div>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-6">
