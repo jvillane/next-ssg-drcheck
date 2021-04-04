@@ -1,5 +1,6 @@
 import Document, { DocumentContext, Head, Html, Main, NextScript } from "next/document";
 import Footer from "../components/footer";
+import React from "react";
 
 export default class MyDocument extends Document {
   
@@ -16,11 +17,11 @@ export default class MyDocument extends Document {
       <Html lang="es-CL">
         <Head>
           <meta charSet='utf-8'/>
-          <meta name="description" content="Servicio de la Inmobiliaria Surmonte al desnudo"/>
+          <meta name="description" content="DrCheck | Recibe tu nuevo hogar de manos de un experto | Somos parte de Constructora EGT SPA"/>
           <meta name="keywords"
-                content="condell54, echeñique46, hl23, candil35, thayer14, ferrer24, lf35, ey32, hda24, wa78, san luis6, capitanes evolución, amudsen evolución, el roble mirador, pocuro miradorpocuro evolución"/>
-          <meta name="author" content="nocumple.cl"/>
-          <meta name="copyright" content="nocumple.cl"/>
+                content="inmobiliarias, departamento, casa, hogar, entrega, proceso de entrega, inspacción, constructoras"/>
+          <meta name="author" content="drcheck.cl"/>
+          <meta name="copyright" content="drcheck.cl"/>
           <meta httpEquiv="cache-control" content="no-cache"/>
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}/>
           <script async

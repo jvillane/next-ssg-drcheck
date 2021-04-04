@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Dr Check | Recibe tu nuevo hogar de manos de un experto | Somos parte de Constructora EGT SPA</title>
+        <title>Dr Check</title>
       </Head>
       <Component {...pageProps}/>
     </>
