@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "../components/navbar";
 import Services from "../components/services";
-import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
           <main>
             <Services/>
           </main>
-          <Footer/>
         </div>
       </div>
     </>

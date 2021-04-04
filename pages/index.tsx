@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Testimony from "../components/testimony";
-import Footer from "../components/footer";
 import Revision from "../components/revision";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
             <Revision/>
             <Testimony/>
           </main>
-          <Footer/>
         </div>
       </div>
     </>
