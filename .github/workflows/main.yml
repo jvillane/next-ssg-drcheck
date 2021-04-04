@@ -20,8 +20,8 @@ jobs:
       - name: Set branch environment variables
         id: setvars
         run: |
-          echo "::set-output name=AWS_S3_BUCKET_NAME::drcheck-nocumple-cl"
-          echo "::set-output name=AWS_CLOUDFRONT_ID::E3MEYMKNAFDHIN"
+          echo "::set-output name=AWS_S3_BUCKET_NAME::drcheck-cl"
+          echo "::set-output name=AWS_CLOUDFRONT_ID::E25YYIOPC2WY9O"
 
   build:
     runs-on: ubuntu-latest
