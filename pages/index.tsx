@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Testimony from "../components/testimony";
 import Revision from "../components/revision";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
             <Revision/>
             <Testimony/>
           </main>
+          <Footer/>
         </div>
       </div>
     </>

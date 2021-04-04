@@ -1,5 +1,4 @@
 import Document, { DocumentContext, Head, Html, Main, NextScript } from "next/document";
-import Footer from "../components/footer";
 import React from "react";
 
 export default class MyDocument extends Document {
@@ -45,7 +44,6 @@ export default class MyDocument extends Document {
             <div className="flex-grow">
               <NextScript/>
             </div>
-            <Footer/>
           </div>
         </body>
       </Html>
