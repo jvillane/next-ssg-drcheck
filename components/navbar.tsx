@@ -22,11 +22,12 @@ export default function Navbar() {
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
               <Link href="/">
-                <a href="#">
+                <a href="#" className="flex items-center text-white text-xl">
                   <span className="sr-only">DrCheck</span>
-                  <div className="text-white">
+                  <div>
                     <CheckCircleOutline/>
                   </div>
+                  <span>&nbsp;&nbsp;DrCheck</span>
                 </a>
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
@@ -43,9 +44,6 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden space-x-8 md:flex md:ml-10">
-              <Link href="/">
-                <a className="text-base font-medium text-white hover:text-gray-300">Inicio</a>
-              </Link>
               <Link href="/servicios">
                 <a className="text-base font-medium text-white hover:text-gray-300">Servicios</a>
               </Link>

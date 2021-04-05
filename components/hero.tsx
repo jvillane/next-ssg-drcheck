@@ -20,7 +20,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="lg:col-span-2 mt-12 pb-16 lg:m-0 lg:relative">
-            <div className="flex mx-auto max-w-md px-4 sm:justify-center sm:max-w-2xl sm:px-6 lg:justify-end lg:max-w-none lg:px-0">
+            <div className="flex mx-auto max-w-md px-4 justify-center sm:max-w-2xl sm:px-6 lg:justify-end lg:max-w-none lg:px-0">
               <img className="object-contain md:object-scale-down lg:w-full lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                    src="/drcheck_logo.png"
                    alt=""/>
