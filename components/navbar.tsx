@@ -44,13 +44,13 @@ export default function Navbar() {
             </div>
             <div className="hidden space-x-8 md:flex md:ml-10">
               <Link href="/">
-                <a href="/" className="text-base font-medium text-white hover:text-gray-300">Inicio</a>
+                <a className="text-base font-medium text-white hover:text-gray-300">Inicio</a>
               </Link>
               <Link href="/servicios">
-                <a href="/servicios.html" className="text-base font-medium text-white hover:text-gray-300">Servicios</a>
+                <a className="text-base font-medium text-white hover:text-gray-300">Servicios</a>
               </Link>
               <Link href="/equipo">
-                <a href="/equipo.html" className="text-base font-medium text-white hover:text-gray-300">Equipo</a>
+                <a className="text-base font-medium text-white hover:text-gray-300">Equipo</a>
               </Link>
             </div>
           </div>
@@ -111,16 +111,13 @@ export default function Navbar() {
             <div className="pt-5 pb-6">
               <div className="px-2 space-y-1">
                 <Link href="/">
-                  <a href="/"
-                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Inicio</a>
+                  <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Inicio</a>
                 </Link>
                 <Link href="/servicios">
-                  <a href="/servicios.html"
-                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Servicios</a>
+                  <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Servicios</a>
                 </Link>
                 <Link href="/equipo">
-                  <a href="/equipo.html"
-                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Equipo</a>
+                  <a className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Equipo</a>
                 </Link>
               </div>
               <div className="mt-6 px-5">
