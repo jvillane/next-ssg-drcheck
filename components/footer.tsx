@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckCircleOutline,  } from "heroicons-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -7,19 +7,25 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
           <div className="px-5 py-2">
-            <a href="#" className="text-base text-gray-500 hover:text-gray-900">
-              Inicio
-            </a>
+            <Link href="/">
+              <a href="/" className="text-base text-gray-500 hover:text-gray-900">
+                Inicio
+              </a>
+            </Link>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base text-gray-500 hover:text-gray-900">
-              Servicios
-            </a>
+            <Link href="/servicios">
+              <a href="/servicios.html" className="text-base text-gray-500 hover:text-gray-900">
+                Servicios
+              </a>
+            </Link>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="text-base text-gray-500 hover:text-gray-900">
-              Equipo
-            </a>
+            <Link href="/equipo">
+              <a href="/equipo.html" className="text-base text-gray-500 hover:text-gray-900">
+                Equipo
+              </a>
+            </Link>
           </div>
           <div className="px-5 py-2">
             <a href="mailto:consulta@drcheck.cl" className="text-base text-gray-500 hover:text-gray-900">
@@ -29,7 +35,8 @@ export default function Footer() {
         </nav>
         <nav className="-mx-5 mt-3 flex flex-wrap justify-center" aria-label="Footer">
           <div className="px-5 py-2">
-            <a href="#" className="inline-flex items-center text-base text-gray-400 hover:text-gray-900">
+            <a href="#" className="inline-flex items-center text-base text-gray-400 hover:text-gray-900"
+               target="_blank" rel="noopener noreferrer">
               Instagram&nbsp;
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path fillRule="evenodd"
@@ -39,7 +46,8 @@ export default function Footer() {
             </a>
           </div>
           <div className="px-5 py-2">
-            <a href="#" className="inline-flex items-center text-base text-gray-400 hover:text-gray-900">
+            <a href="#" className="inline-flex items-center text-base text-gray-400 hover:text-gray-900"
+               target="_blank" rel="noopener noreferrer">
               LinkedIn&nbsp;
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path fillRule="evenodd"
